@@ -13,6 +13,10 @@ namespace ConsoleApp33
             var temp = Guid.NewGuid().ToString("N");
 
             Console.WriteLine(temp);
+
+            var dt = DateTime.Now.ToString();
+
+            Console.WriteLine("datetime:"+dt.ToString());
         }
     }
 }
