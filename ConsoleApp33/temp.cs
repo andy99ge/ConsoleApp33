@@ -18,7 +18,7 @@ namespace ConsoleApp33
 
         public override string ToString()
         {
-            return "test";
+            return this.tempValue.ToString();
         }
     }
 }
