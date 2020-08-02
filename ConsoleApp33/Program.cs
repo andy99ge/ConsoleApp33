@@ -17,6 +17,13 @@ namespace ConsoleApp33
             var dt = DateTime.Now.ToString();
 
             Console.WriteLine("datetime:"+dt.ToString());
+
+            tempF t=new tempF(5.55f);
+
+            Console.WriteLine(t.tempValue);
+            Console.WriteLine(t.ToString());
+
+            
         }
     }
 }
