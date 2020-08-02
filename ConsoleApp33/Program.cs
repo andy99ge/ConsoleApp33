@@ -9,6 +9,10 @@ namespace ConsoleApp33
             Console.WriteLine("Hello World!");
 
             Console.WriteLine("test");
+
+            var temp = Guid.NewGuid().ToString("N");
+
+            Console.WriteLine(temp);
         }
     }
 }
